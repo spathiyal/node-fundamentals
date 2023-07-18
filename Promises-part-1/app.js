@@ -39,4 +39,3 @@ Promise.all(
   ).then(facts => {
     facts.forEach(res => $("body").append(`<p>${res.text}</p>`));
   });
-
