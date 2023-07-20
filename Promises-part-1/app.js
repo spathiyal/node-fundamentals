@@ -11,7 +11,7 @@ let BASE_URL = 'http://numbersapi.com';
 let favNum = 2;
 
 $.getJSON(`${BASE_URL}/${favNum}?json`)
-.then(res =>{console.log(res)})
+.then(res =>{console.log(res)});
 
 /*
 Figure out how to get data on multiple numbers
@@ -20,10 +20,10 @@ Figure out how to get data on multiple numbers
  put all of the number facts on the page.
 */
 
-let favNum2 = [1,2,3]
+let favNum2 = [1,2,3];
 
 $.getJSON(`${BASE_URL}/${favNum2}?json`)
-.then(res =>{console.log(res)})
+.then(res =>{console.log(res)});
 /*
 3. Use the API to get 4 facts on
 your favorite number. Once you have them all,
